@@ -25,7 +25,7 @@ $ tree
                             └── AppTest.java
 # 对 pom.xml 文件进行编辑 
 $ vim pom.xml
-$ mvn dependency:tree-Dincludes=org.springframework*
+$ mvn dependency:tree -Dincludes=org.springframework*
 
 ```
 
