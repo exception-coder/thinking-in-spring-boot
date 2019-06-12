@@ -3,7 +3,6 @@ package think.in.spring.boot.config;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.boot.ApplicationRunner;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.web.context.WebServerInitializedEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
