@@ -4,9 +4,9 @@
 
 ## 理解独立的 Spring 应用 
 
-```bash
+```basic
 $ cd /Users/zhangkai/exception-coder/thinking-in-spring-boot/
-# 使用 maven archetype 插件创建 maven 工程
+'使用 maven archetype 插件创建 maven 工程'
 $ mvn archetype:generate -DgroupId=thinking-in-spring-boot -DartifactId=first-spring-boot-application -Dversion=1.0.0-SNAPSHOT -DinteractiveMode=false -Dpackage=thinking.in.spring.boot
 $ cd first-spring-boot-application
 $ tree
@@ -27,10 +27,10 @@ $ tree
                     └── spring
                         └── boot
                             └── AppTest.java
-# 对 pom.xml 文件进行编辑 
+'对 pom.xml 文件进行编辑 '
 $ vim pom.xml
 $ mvn dependency:tree -Dincludes=org.springframework*
-# 编辑引导类
+' 编辑引导类'
 $ vim src/main/java/thinking/in/spring/boot/App.java 
 $ mvn spring-boot:run
 
