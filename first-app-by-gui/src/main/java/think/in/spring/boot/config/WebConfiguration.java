@@ -18,7 +18,6 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 @Configuration
-
 /**
  *
  * 5.4 @EnableAutoConfiguration 激活自动装配
@@ -43,8 +42,8 @@ public class WebConfiguration {
                     beanFactory.getBean("helloworld").getClass().getName());
             System.out.println("当前 WebConfiguration Bean 实现为："+
                     beanFactory.getBean(WebConfiguration.class).getClass().getName());
-            System.out.println("当前 FooConfiguration Bean 实现为："+
-                    beanFactory.getBean(FooConfiguration.class).getClass().getName());
+//            System.out.println("当前 FooConfiguration Bean 实现为："+
+//                    beanFactory.getBean(FooConfiguration.class).getClass().getName());
         };
     }
 

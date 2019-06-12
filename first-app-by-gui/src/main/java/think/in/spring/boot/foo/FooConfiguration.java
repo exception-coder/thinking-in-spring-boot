@@ -14,7 +14,7 @@ import static org.springframework.web.reactive.function.server.ServerResponse.ok
  *
  * 5.7 自动装配
  */
-@Configuration
+//@Configuration
 public class FooConfiguration {
 
     @Bean
