@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 management:
   endpoints:
     web:
       exposure:
+<<<<<<< HEAD
         include: '*'
 server:
   port: 8080
+=======
+        include: '*'
+>>>>>>> master
